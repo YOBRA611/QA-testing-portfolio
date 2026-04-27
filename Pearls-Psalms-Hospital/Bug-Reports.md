@@ -1,31 +1,21 @@
-**Functional Logic and Business Rules**
+**Pearls & Psalms Hospital: QA Audit Report**
 
-**PPH-001:** Appointment Form Allows Booking on Past Dates
+**Focus:** Appointment Booking & Contact Form
+
+**PPH-001:** Appointment Form bypasses "Required" fields
 
 **Severity:** 🔴 High
 
-**Category:** Functional Logic
+**Description:** The "Doctor Specialty" dropdown is marked as required, but the form allows submission even if no option is selected.
 
-**Description:** The date picker on the "Book Appointment" form does not have a restriction preventing users from selecting dates that have already passed.
+**Actual Result:** Blank appointments are sent to the hospital database, making it impossible for staff to prepare.
 
-**Steps to Reproduce:** 
-1. Navigate to the Appointment section.
-2. Open the date picker/calendar.
-3. Select a date from the previous month.
-4. Fill in the required details and click "Submit."
+**Expected Result:** Form should trigger a "Please select a specialty" error message.
 
-**Actual Result:** The system accepts the entry and displays a "Booking Confirmed" message for a date in the past.
+**PPH-002:** Success message appears, but email fails to send
 
-**Expected Result:** Dates before the current date should be disabled or greyed out in the UI.
+**Severity:** 🟠 Medium
 
-**PPH-002:** Emergency Contact Field Lacks Numeric Validation
+**Description:** Upon submitting the Contact Form, a "Thank You" message appears, but the Network tab in DevTools shows a 500 Internal Server Error.
 
-**Severity:** 🟡 Medium
-
-**Category:** Data Integrity
-
-**Description:** The "Emergency Phone Number" input field accepts alphabetic characters and symbols instead of enforcing a numeric-only format.
-
-**Actual Result:** A user can submit the word "HELP" or "None" in the phone number field.
-
-**Expected Result:** The field should only accept numeric input and validate for a standard phone number length.
+**Observation:** The user thinks they contacted the hospital, but the message was never delivered.
