@@ -1,28 +1,21 @@
 **Lossy Online Stores: QA Audit Report**
 
-**🛒 E-commerce & Payment Logic**
+**Focus:** Checkout Process & Contact Form
 
-**LOS-001:** Cart Quantity Manual Bypass
+**LOS-001:** Checkout allows "Empty Cart" submission
 
-**Severity:** 🟠 High
+**Severity:** 🔴 High
 
-**Category:** Functional Logic
+**Description:** If a user navigates directly to the checkout URL without adding products, the "Place Order" button remains active.
 
-**Description:** While the UI buttons prevent negative numbers, a user can manually type a negative integer (e.g., -5) into the quantity input box on the cart page.
+**Actual Result:** The system processes an order with a total of $0.00.
 
-**Actual Result:** The cart subtotal reflects a negative balance, potentially allowing a user to checkout with a reduced or zero total.
+**Expected Result:** The checkout button should be disabled, and a "Your cart is empty" message should be displayed.
 
-**Expected Result:** Input validation should force the value to a minimum of 1 upon any manual change.
+**LOS-002:** Contact Form "Email" field accepts invalid formats
 
+**Severity:** 🟠 Medium
 
-**LOS-002:** M-Pesa Session Timeout Handling
+**Description:** The email input does not check for the @ symbol or a domain extension.
 
-**Severity:** 🟠 High
-
-**Category:** Payment Integration
-
-**Description:** If a user initiates an M-Pesa transaction but cancels the STK push on their phone, the order remains "Pending" in the system indefinitely.
-
-**Actual Result:** Stock is reserved for "Ghost Orders," leading to inaccurate inventory levels for other customers.
-
-**Expected Result:** The system should implement a 5-minute timeout that auto-cancels the order and releases stock if the payment callback isn't received.
+**Observation:** Users can submit "brian-at-gmail" as a valid email, preventing the store from replying to inquiries.
