@@ -41,7 +41,7 @@ Each link below leads to a detailed technical bug report including reproduction 
 * **[Lossy Online Stores](./Lossy-Online-Store/Bug-Reports.md)** – *Focus: E-commerce Workflows & Payment Gateway Security.*
 * **[Insign Link Global](./Insign-Link-Global/Bug-Reports.md)** – *Focus: Data Integrity & Secure Document Uploads.*
 * **[CPA Wesaya Consult](./CPA-Wesaya-Consult/Bug-Reports.md)** – *Focus: PII Privacy & Form State Management.*
-* **[CPA Wesaya Consult](./CPA-Wesaya-Consult/Bug-Reports.md)** – *Focus: PII Privacy & Form State Management.*
+* **[AI-Model-Evaluation](./CPA-Wesaya-Consult/Bug-Reports.md)** – *Focus: PII Privacy & Form State Management.*
 
 ---
 
