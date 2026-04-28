@@ -12,7 +12,6 @@ Welcome to my Quality Assurance and AI Operations repository. This project showc
 ---
 
 ## 🌍 Swahili Linguistic Expertise & AI Training
-*For Meridial / Invisible Technologies / AI Localization Roles*
 
 I apply a **Technical QA mindset** to Swahili linguistics. I specialize in hardening model reasoning by identifying deep-seated failures in:
 
