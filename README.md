@@ -37,11 +37,11 @@ I am currently engaged as an **AI Data Specialist**, performing multimodal evalu
 
 Each link below leads to a detailed technical bug report including reproduction steps, severity analysis, and expected vs. actual results.
 
+* **[AI Model Evaluation](./AI-Model-Evaluation/Simulated-LVM-Audits.md)** – *Focus: Prompt Fidelity, Visual Hallucinations & Model Reasoning.*
 * **[Pearls & Psalms Hospital](./Pearls-Psalms-Hospital/Bug-Reports.md)** – *Focus: Medical Appointment Logic & Functional Validation.*
 * **[Lossy Online Stores](./Lossy-Online-Store/Bug-Reports.md)** – *Focus: E-commerce Workflows & Payment Gateway Security.*
 * **[Insign Link Global](./Insign-Link-Global/Bug-Reports.md)** – *Focus: Data Integrity & Secure Document Uploads.*
 * **[CPA Wesaya Consult](./CPA-Wesaya-Consult/Bug-Reports.md)** – *Focus: PII Privacy & Form State Management.*
-* **[AI-Model-Evaluation](./CPA-Wesaya-Consult/Bug-Reports.md)** – *Focus: PII Privacy & Form State Management.*
 
 ---
 
