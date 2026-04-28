@@ -20,7 +20,7 @@ I apply a **Technical QA mindset** to Swahili linguistics. I specialize in harde
 * **Semantic Pragmatics:** Auditing for "Direct Translation Hallucinations" that ignore East African cultural nuances.
 * **Metacognitive Auditing:** Providing detailed "Error Traces" that explain *why* a model's Swahili output is logically or grammatically unsound.
 
-> **[View my Swahili Linguistic Audit Log](./Swahili-Linguistic-Audit.md)** > *(A detailed breakdown of failure modes in Swahili AI outputs)*
+> **[View my Swahili Linguistic Audit Log](./Swahili-Linguistic-Audit/Audit.md)** > *(A detailed breakdown of failure modes in Swahili AI outputs)*
 
 ---
 
